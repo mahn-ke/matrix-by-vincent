@@ -1,0 +1,11 @@
+#http
+version: '3.8'
+services:
+    synapse:
+        image: matrixdotorg/synapse:v1.123.0
+        container_name: synapse
+        volumes:
+            - C:\Users\vm\Desktop\synapse-data:/data
+        ports:
+            - "8008:8008"
+        restart: unless-stopped
