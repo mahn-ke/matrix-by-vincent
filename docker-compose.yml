@@ -1,4 +1,4 @@
-#http
+#matrix
 version: '3.8'
 services:
     synapse:
