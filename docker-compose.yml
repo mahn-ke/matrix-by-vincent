@@ -2,7 +2,7 @@
 version: '3.8'
 services:
     synapse:
-        image: matrixdotorg/synapse:v1.142.0
+        image: matrixdotorg/synapse:v1.142.1
         container_name: synapse
         volumes:
             - data:/data
